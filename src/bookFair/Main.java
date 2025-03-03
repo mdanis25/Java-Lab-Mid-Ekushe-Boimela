@@ -3,28 +3,30 @@ package bookFair;
 public class Main {
     public static void main(String[] args) {
         // Creating Books with realistic data
-        Book book1 = new Book("ভাঙা মন", "হুমায়ূন আহমেদ", 5, 250); // "Broken Heart" by Humayun Ahmed
-        Book book2 = new Book("জীবন থেকে বড় কিছু নয়", "ফয়সল খান", 3, 300); // "Nothing is Bigger than Life" by Faisal Khan
-        Book book3 = new Book("আলোর পথ", "নাজরুল ইসলাম", 2, 400); // "Path of Light" by Nazrul Islam
-        Book book4 = new Book("অনন্ত ভালোবাসা", "তানিয়া", 4, 150); // "Endless Love" by Tania
-        Book book5 = new Book("বঙ্গবন্ধুর জীবন", "শেখ মুজিবুর রহমান", 6, 350); // "Life of Bangabandhu" by Sheikh Mujibur Rahman
-        Book book6 = new Book("ঢাকা শহরের ইতিহাস", "এল. বি. সরকার", 8, 200); // "History of Dhaka City" by L. B. Sarkar
-        Book book7 = new Book("বাংলাদেশের মুক্তিযুদ্ধ", "মুক্তিযুদ্ধ গবেষক", 5, 450); // "War of Liberation of Bangladesh" by Liberation War Researcher
-        Book book8 = new Book("মধুমালতি", "রবীন্দ্রনাথ ঠাকুর", 7, 300); // "Madhumalati" by Rabindranath Tagore
-        Book book9 = new Book("ভাটির দেশ", "শহীদুল জহির", 4, 250); // "Land of the River" by Shahidul Zahir
-        Book book10 = new Book("মা", "কাজী নজরুল ইসলাম", 3, 600); // "Mother" by Kazi Nazrul Islam
-        Book book11 = new Book("চোখের পানি", "জহির রায়হান", 10, 200); // "Tears of the Eye" by Zahir Raihan
-        Book book12 = new Book("আমার দেশ", "সেলিনা হোসেন", 2, 700); // "My Country" by Selina Hossain
-        Book book13 = new Book("গল্পের শহর", "আহমেদ সামী", 5, 320); // "City of Stories" by Ahmed Sami
-        Book book14 = new Book("মেঘে মেঘে", "মাহবুবুল হক", 4, 500); // "Clouds in the Sky" by Mahbubul Haq
-        Book book15 = new Book("দ্য ফিউচার অফ বাংলাদেশ", "সামসুল আলম", 9, 400); // "The Future of Bangladesh" by Samsul Alam
+        Book book1 = new Book("ভাঙা মন", "হুমায়ূন আহমেদ", 5, 250);
+        Book book2 = new Book("জীবন থেকে বড় কিছু নয়", "ফয়সল খান", 3, 300);
+        Book book3 = new Book("আলোর পথ", "নাজরুল ইসলাম", 2, 400);
+        Book book4 = new Book("অনন্ত ভালোবাসা", "তানিয়া", 4, 150);
+        Book book5 = new Book("বঙ্গবন্ধুর জীবন", "শেখ মুজিবুর রহমান", 6, 350);
+        Book book6 = new Book("ঢাকা শহরের ইতিহাস", "এল. বি. সরকার", 8, 200);
+        Book book7 = new Book("বাংলাদেশের মুক্তিযুদ্ধ", "মুক্তিযুদ্ধ গবেষক", 5, 450);
+        Book book8 = new Book("মধুমালতি", "রবীন্দ্রনাথ ঠাকুর", 7, 300);
+        Book book9 = new Book("ভাটির দেশ", "শহীদুল জহির", 4, 250);
+        Book book10 = new Book("মা", "কাজী নজরুল ইসলাম", 3, 600);
+        Book book11 = new Book("চোখের পানি", "জহির রায়হান", 10, 200);
+        Book book12 = new Book("আমার দেশ", "সেলিনা হোসেন", 2, 700);
+        Book book13 = new Book("গল্পের শহর", "আহমেদ সামী", 5, 320);
+        Book book14 = new Book("মেঘে মেঘে", "মাহবুবুল হক", 4, 500);
+        Book book15 = new Book("দ্য ফিউচার অফ বাংলাদেশ", "সামসুল আলম", 9, 400);
 
-// Creating BookStalls with realistic data
+
+
+        // Creating BookStalls with realistic data
         Book[] stall1Books = {book1, book2, book3, book4, book5}; // Books for Stall 1
         Book[] stall2Books = {book6, book7, book8, book9, book10}; // Books for Stall 2
         Book[] stall3Books = {book11, book12, book13, book14, book15}; // Books for Stall 3
 
-// Creating BookStalls
+        // Creating BookStalls
         BookStall stall1 = new BookStall("মুক্তিযুদ্ধের বইয়ের স্টল", "ঢাকা, মিরপুর", "01712345678", 10000, stall1Books); // Stall 1: Liberation War Books Stall
         BookStall stall2 = new BookStall("বাংলাদেশ সাহিত্য স্টল", "ঢাকা, গুলশান", "01887654321", 15000, stall2Books); // Stall 2: Bangladeshi Literature Stall
         BookStall stall3 = new BookStall("বিশ্ববিদ্যালয়ের স্টল", "ঢাকা, ধানমন্ডি", "01922334455", 20000, stall3Books); // Stall 3: University Books Stall
@@ -73,6 +75,7 @@ public class Main {
         customer4.showPersonalInfo();
         System.out.println("\nCustomer 5 Details:");
         customer5.showPersonalInfo();
+
 
     }
 }
