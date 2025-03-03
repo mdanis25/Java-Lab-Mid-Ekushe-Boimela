@@ -26,4 +26,43 @@ public class BookStall {
         }
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getContactInfo() {
+        return contactInfo;
+    }
+
+    public Book[] getBookList() {
+        return bookList;
+    }
+
+    public void setBookList(Book[] bookList) {
+        this.bookList = bookList;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void setContactInfo(String contactInfo) {
+        this.contactInfo = contactInfo;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
